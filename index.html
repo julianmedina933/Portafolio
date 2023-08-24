@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <!-- Seccion Inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/JM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">Inicio</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#portafolio">PORTAFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos redes sociales-->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div>
+                        <span class="es"> Español</span>
+                        <input type="checkbox" class="check" >
+                        <span class="en">English</span>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Julian Esteban </span>, Ingeniero Mecatrónico</h2>
+                <p class="descripcion">Descubre mi mundo como programador,Explora mi portafolio para ver cómo transformo ideas en soluciones digitales impactantes.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion sobre mi-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="fotos/foto .jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span> Julian Medina Muñoz</span></h2>
+            <h3>Ingeniero Mecatrónico</h3>
+            <p>Soy Julian Esteban, un ingeniero mecatrónico apasionado y comprometido con el aprendizaje constante. Desde 2019, he explorado diversos ámbitos de mi campo, con un enfoque particular en la programación, destacando en MATLAB, Python y desarrollo web con HTML y CSS.</p>
+            <p>Mi formación en Ingeniería Mecatrónica en la Universidad Militar Nueva Granada me proporcionó una sólida base en programación, automatización y robótica. Además, he continuado perfeccionando mis habilidades a través de cursos especializados, manteniéndome al tanto de las últimas tendencias. Mi dedicación a la educación continua me mantiene a la vanguardia de las cambiantes innovaciones en el campo.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    <!-- Educacion -->
+    <section id="educacion">
+        <h3 class="tituloseccion">Studies</h3>
+        <div class="fila">
+            <div class="colegio">
+                <span class="icono">i.<i class="fa-solid fa-school"></i></span>
+                <h4>Bachiller </h4>
+                <hr>
+                <ul class="tag">
+                    <li>Liceo Hemano Miguel la Salle</li>
+                </ul>
+                <p>Institución educativa reconocida por su enfoque en la formación integral, combinando valores Lasallistas con excelencia académica. 2019 </p>
+            </div>
+            <div class="colegio">
+                <span class="icono"><i class="fa-solid fa-building-columns"></i></i></span>
+                <h4>Universidad </h4>
+                <hr>
+                <ul class="tag">
+                    <li>Universidad Militar Nueva Granda</li>
+                </ul>
+                <p> Con enfoque en la integración de la mecánica, electrónica y control en sistemas innovadores. 2019-2024</p>
+            </div>
+            <div class="colegio">
+                <span class="icono">i.<i class="fa-solid fa-school"></i></span>
+                <h4>Prox Estudios </h4>
+                <hr>
+                <ul class="tag">
+                    <li> istitucion </li>
+                </ul>
+                <p>Lorem ipsum, dolor sit amet cons.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion skills-->
+    <div class="contenedor-skills"id="skills">
+            <h3>HABILIDADES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div id="html" class="barra-progreso1"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Python</p>
+                    <span class="porcentaje">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="py" class="barra-progreso2"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Bases de Datos</p>
+                    <span class="porcentaje">60%</span>
+                </div>
+                <div class="barra">
+                    <div id="bd" class="barra-progreso3"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>MATLAB</p>
+                    <span class="porcentaje">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="mt" class="barra-progreso4"></div>
+                </div>
+            </div>
+
+    </div>
+    <!-- Seccion portafolio-->
+    <section id="portafolio">
+        <h4 class="titulo-seccion">MIS PROYECTOS</h4>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="fotos/Proyecto12.jpg" alt="">
+                <div class="info">
+                    <h4>Planeacion de trayectorias Robot Mobil</h4>
+                    <p>Mi proyecto incluyó el diseño y montaje de un sistema de planificación de trayectorias basado en inteligencia artificial. Esto permitió la detección y agarre eficiente de objetos, demostrando mi habilidad para fusionar ingeniería y programación en soluciones robóticas innovadoras </p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="fotos/proyecto11.jpg" alt="">
+                <div class="info">
+                    <h4>Creacion de Videojuego con implementacion de sensor MPU</h4>
+                    <p>Desarrollé un videojuego que integra un sensor MPU mediante filtros inteligentes. Esta combinación demuestra mi habilidad para fusionar entretenimiento interactivo y tecnología de sensores de manera creativa.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="fotos/proyecto13.jpg" alt="">
+                <div class="info">
+                    <h4>Control de pocision Robot 2DOF</h4>
+                    <p>Mi proyecto logró el control preciso de un robot de 2 grados de libertad mediante un microcontrolador. Demostré la habilidad de crear soluciones efectivas para la automatización de movimientos, resaltando mi destreza en robótica y programación.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="fotos/proyecto10.jpg" alt="">
+                <div class="info">
+                    <h4>Creacion Banda transportadora para negocio con sensores RFID</h4>
+                    <p>Desarrollé un prototipo de banda transportadora que emula un sistema de tienda, integrando sensores RFID para la detección de productos. Este proyecto destaca mi capacidad para diseñar soluciones realistas y tecnológicamente avanzadas para la automatización y seguimiento de inventario.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="fotos/proyecto15.jpg " alt="">
+                <div class="info">
+                    <h4>Pagina web E-commerce</h4>
+                    <p>Diseñé una página web completa utilizando HTML y CSS, centrada en optimizar el proceso de compra para una tienda en línea. Implementé un carrito de compra funcional para brindar una experiencia de usuario fluida y eficiente, demostrando mi habilidad para crear soluciones web intuitivas y orientadas a la conversión. </p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="fotos/proyecto14.jpg" alt="">
+                <div class="info">
+                    <h4>Control de nive con bomba peristaltica</h4>
+                    <p> </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto-->
+    <section id="contacto">
+        <h5 class="titulo-seccion">Contactame Ahora</h5>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje" class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de pagina-->
+    <footer>
+        <p>Gracias - Utimo Cambio 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
